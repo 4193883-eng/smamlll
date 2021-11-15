@@ -1,0 +1,23 @@
+.dv::before{
+    content: "";
+    display: block;
+    height:3px;
+    width: 50px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
+.dv{
+    color: aquamarine;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+.dv::after{
+    content: "";
+    display: block;
+    height:3px;
+    width: 50px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
